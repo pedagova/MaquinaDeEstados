@@ -11,7 +11,9 @@ public class Main {
 		char[] input = {'\"', 'h', 'o', '\"', '4', '6', '*'};
 		for(char c : input) {
 			contex.setC(c);
-			contex.ac();
+
+			contex.activar();
+
 		}
 
 	}
